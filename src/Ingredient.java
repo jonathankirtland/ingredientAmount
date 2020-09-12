@@ -10,6 +10,7 @@ public class Ingredient
     {
         this.myName = name;
         this.amount = amount;
+        myType = null;
     }
     //constructor for ingredients with variable size
     public Ingredient(String name, double amount, Type type)
@@ -32,8 +33,18 @@ public class Ingredient
         this.myType = type;
     }
 
-    public String getType() {
+    public String getType()
+    {
         return myType.name();
+    }
+
+    public Boolean isNull()
+    {
+        if (myType == null)
+        {
+            return true;
+        }
+        return false;
     }
 
     @Override
