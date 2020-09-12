@@ -20,10 +20,33 @@ public class CustomIng implements Ingredient
         this.amount = amount;
         this.myType = type;
     }
+    public void setAmount(double amount)
+    {
+        this.amount = amount;
+    }
+
+    public double getAmount()
+    {
+        return amount;
+    }
+    public void setType(Type type)
+    {
+        this.myType = type;
+    }
+
+    public String getType() {
+        return myType.name();
+    }
+
     @Override
     public String toString()
     {
         return myName;
     }
+    public double getMl()
+    {
+        return amount * myType.getMl();
+    }
+
 
 }
