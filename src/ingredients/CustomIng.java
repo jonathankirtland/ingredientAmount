@@ -20,4 +20,10 @@ public class CustomIng implements Ingredient
         this.amount = amount;
         this.myType = type;
     }
+    @Override
+    public String toString()
+    {
+        return myName;
+    }
+
 }
