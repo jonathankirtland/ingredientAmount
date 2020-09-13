@@ -4,10 +4,11 @@ import java.util.LinkedList;
 public class Recipe
 {
    private LinkedList<Ingredient> list = new LinkedList<>();
+   private int conversionAmount;
 
-    public Recipe()
+    public Recipe(int conversionAmount)
     {
-
+        this.conversionAmount = conversionAmount;
     }
     public void addToRecipe(Ingredient ingredient)
     {
@@ -23,15 +24,26 @@ public class Recipe
     {
         list.clear();
     }
-/*
-    public static void main(String[] args)
+      
+    @Override
+    public String toString()
     {
-        Recipe r = new Recipe();
-        Ingredient temp = new Ingredient("Suger", 17, Type.TABLESPOON);
-        r.addToRecipe(temp);
-        Converter c = new Converter(1);
-        System.out.println(c.convert(temp));
+        Converter convert = new Converter(conversionAmount);
+        String myString = "";
+        for (Ingredient ing : list)
+        {
+            if (ing.isNull())
+            {
+                myString += ing.getMyName() + ":      amount: " + convert.convertFixed(ing) + "\n";
+            }
+            else
+            {
+                convert.convert(ing);
+                myString += ing.getMyName() + ":      amount: " + convert;
 
+            }
+        }
+        return myString;
     }
-    */
+    
 }
