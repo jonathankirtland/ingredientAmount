@@ -24,11 +24,20 @@ public class Converter
         double myml = ingredient.getMl() * conversionFactor;
         int numcups =(int) (myml / Type.CUP.getMl());
         myml %= Type.CUP.getMl();
+        int numHalfCups = (int) (myml/Type.HALFCUP.getMl());
+        myml%= Type.HALFCUP.getMl();
+        int numThirdCups = (int) (myml/Type.THIRDCUP.getMl());
+        myml%= Type.HALFCUP.getMl();
+        int numFourCups = (int) (myml/Type.FOURTHCUP.getMl());
+        myml%= Type.HALFCUP.getMl();
         int numtblsp = (int) (myml/Type.TABLESPOON.getMl());
         myml %= Type.TABLESPOON.getMl();
         int numtsp = (int) (myml/Type.TEASPOON.getMl());
 
         elements.add(numcups);
+        elements.add(numHalfCups);
+        elements.add(numThirdCups);
+        elements.add(numFourCups);
         elements.add(numtblsp);
         elements.add(numtsp);
         return elements;

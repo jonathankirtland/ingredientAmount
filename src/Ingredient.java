@@ -6,7 +6,7 @@ public class Ingredient
     Type myType;
 
     //constructor for ingredients that have a fixed size
-    public Ingredient(String name, int amount)
+    public Ingredient(String name, double amount)
     {
         this.myName = name;
         this.amount = amount;
