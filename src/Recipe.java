@@ -45,5 +45,17 @@ public class Recipe
         }
         return myString;
     }
+/*
+    public static void main(String[] args)
+    {
+        Ingredient egg = new Ingredient("Egg", 2);
+        Ingredient flour = new Ingredient("flour", 3, Type.CUP);
+        Recipe recipe = new Recipe(4);
+        recipe.addToRecipe(egg);
+        recipe.addToRecipe(flour);
+        System.out.println(recipe);
+    }
+
+ */
     
 }

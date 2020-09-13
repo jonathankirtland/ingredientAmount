@@ -6,12 +6,11 @@ import java.util.LinkedList;
 
 public class Controller {
 
-    private final Recipe recipe = new Recipe();
+    private Recipe recipe;
     LinkedList<String> names = new LinkedList<String>();
     LinkedList<Integer> amounts = new LinkedList<Integer>();
     LinkedList<Type> type = new LinkedList<Type>();
     int servings, desiredServings;
-    Recipe newRecipe = new Recipe();
 
     public Controller() {
     }
@@ -51,14 +50,16 @@ public class Controller {
     private void servingsDesired(int i)
     {
         desiredServings = i;
+        recipe = new Recipe(desiredServings);
     }
-    public void convertClicked()
+    public conversionFactor()
     {
 
-        //newRecipe = recipe.convert(servingsDesired);
     }
-     public void PrintRecipe()
-     {
-        System.out.print(newRecipe);
-     }
+    public String convertClicked()
+    {
+        //print recipe
+        return recipe.toString();
+    }
+
 }
