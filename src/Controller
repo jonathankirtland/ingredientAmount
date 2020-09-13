@@ -54,7 +54,7 @@ public class Controller {
     public void initRecipe()
     {
         double factor;
-        factor = servings * (double)desiredServings/servings;
+        factor = (double)desiredServings/servings;
         recipe = new Recipe(factor);
     }
     public String nextClicked()
