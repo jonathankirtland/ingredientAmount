@@ -5,8 +5,8 @@ import java.util.LinkedList;
 public class Converter
 {
     private LinkedList<Integer> elements;
-    private int conversionFactor;
-    public Converter(int conversionFactor)
+    private double conversionFactor;
+    public Converter(double conversionFactor)
     {
         this.conversionFactor = conversionFactor;
     }

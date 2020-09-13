@@ -4,9 +4,9 @@ import java.util.LinkedList;
 public class Recipe
 {
    private LinkedList<Ingredient> list = new LinkedList<>();
-   private int conversionAmount;
+   private double conversionAmount;
 
-    public Recipe(int conversionAmount)
+    public Recipe(double conversionAmount)
     {
         this.conversionAmount = conversionAmount;
     }
