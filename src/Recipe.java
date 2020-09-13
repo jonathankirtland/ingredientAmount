@@ -23,5 +23,15 @@ public class Recipe
     {
         list.clear();
     }
+/*
+    public static void main(String[] args)
+    {
+        Recipe r = new Recipe();
+        Ingredient temp = new Ingredient("Suger", 17, Type.TABLESPOON);
+        r.addToRecipe(temp);
+        Converter c = new Converter(1);
+        System.out.println(c.convert(temp));
 
+    }
+    */
 }
