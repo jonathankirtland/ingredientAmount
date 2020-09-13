@@ -1,0 +1,36 @@
+package sample;
+
+public class Controller {
+
+    private final Recipe recipe = new Recipe();
+    LinkedList<String> names = new LinkedList<String>();
+    LinkedList<int> amounts = new LinkedList<int>();
+    LinkedList<Type> type = new LinkedList<Type>();
+
+    public Controller() {
+    }
+
+    public void createRecipe(LinkedList i[])
+    {
+        for(int i = 0; i < s.length; r++)
+        {
+            if(t[i] ==)
+           recipe.add(new CustomIng(s[i],i[i],t[i]))
+        }
+
+    }
+
+    public void createIng(Sting name, int amt, Type t) {
+        recipe.addToRecipe()
+    }
+
+    private int convertStringToInt(String s) {
+        if (s == null || s.isEmpty()) {
+            return 0 ;
+        }
+        if ("-".equals(s)) {
+            return 0 ;
+        }
+        return Integer.parseInt(s);
+    }
+}
