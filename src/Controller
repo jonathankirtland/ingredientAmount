@@ -47,7 +47,7 @@ public class Controller {
     public void convertClicked()
     {
 
-        newRecipe = recipe.convert(servingsDesired);
+        //newRecipe = recipe.convert(servingsDesired);
     }
      public void Printrecipe()
      {
