@@ -24,7 +24,7 @@ public class Recipe
     {
         list.clear();
     }
-
+      
     @Override
     public String toString()
     {
@@ -45,5 +45,5 @@ public class Recipe
         }
         return myString;
     }
-
+    
 }

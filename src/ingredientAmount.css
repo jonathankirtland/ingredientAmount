@@ -1,0 +1,45 @@
+Button
+{
+    -fx-background-color: #4eb5f1;
+    -fx-background-insets: 0 0 -1 0,0,1;
+    -fx-background-radius: 5,5,4;
+    -fx-padding: 3 30 3 30;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 15px;
+}
+
+Button:hover
+{
+    -fx-background-color: #4095c6;
+}
+
+.text-field
+{
+    -fx-alignment: center-left;
+    -fx-text-fill: black;
+    -fx-min-width: 30;
+    -fx-min-height: 20;
+    -fx-max-height: 30;
+    -fx-max-width: 100;
+}
+
+.choice-box
+{
+    -fx-min-width: 30;
+    -fx-min-height: 20;
+    -fx-max-height: 30;
+    -fx-max-width: 100;
+}
+
+GridPane
+{
+    -fx-hgap: 15;
+    -fx-vgap: 7;
+    -fx-padding: 8 8 8 8;
+}
+
+Label
+{
+    -fx-text-alignment: center;
+    -fx-text-overrun: leading-word-ellipsis;
+}

@@ -1,0 +1,64 @@
+package src;
+
+import src.Ingredient;
+
+import java.util.LinkedList;
+
+public class Controller {
+
+    private final Recipe recipe = new Recipe();
+    LinkedList<String> names = new LinkedList<String>();
+    LinkedList<Integer> amounts = new LinkedList<Integer>();
+    LinkedList<Type> type = new LinkedList<Type>();
+    int servings, desiredServings;
+    Recipe newRecipe = new Recipe();
+
+    public Controller() {
+    }
+
+
+    public void createIng(String name, Double amt, Type t)
+    {
+        Ingredient temp = null;
+        if(t == Type.TABLESPOON)
+            temp = new Ingredient(name, amt, Type.TABLESPOON);
+        else
+            if(t == Type.TEASPOON)
+                temp = new Ingredient(name, amt, Type.TEASPOON);
+            else
+                if(t == Type.CUP)
+                    temp = new Ingredient(name, amt, Type.CUP);
+                    else
+                        if(t==Type.HALFCUP)
+                            temp = new Ingredient(name, amt, Type.HALFCUP);
+                        if(t == Type.THIRDCUP)
+                            temp = new Ingredient(name, amt, Type.THIRDCUP);
+                        else
+                            if(t == Type.FOURTHCUP)
+                                temp = new Ingredient(name, amt, Type.FOURTHCUP);
+                            else
+                                    temp = new Ingredient(name, (int)amt.doubleValue(), null); //Error not expected
+
+        System.out.println(name + " has been added to the recipe.");
+        recipe.addToRecipe(temp);
+    }
+
+    private void servingsGiven(int i)
+    {
+        servings = i;
+    }
+
+    private void servingsDesired(int i)
+    {
+        desiredServings = i;
+    }
+    public void convertClicked()
+    {
+
+        //newRecipe = recipe.convert(servingsDesired);
+    }
+     public void PrintRecipe()
+     {
+        System.out.print(newRecipe);
+     }
+}

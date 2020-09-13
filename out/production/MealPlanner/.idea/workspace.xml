@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f38e8e5-90ae-462f-a5b5-b5ef599a8b2d" name="Default Changelist" comment="Adjusted for third and fourth cups">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MealPlanner.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MealPlanner.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MealPlanner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MealPlanner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1hQTbgtyLagDUmZiP9slpgXWMK9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-11.0.2/lib" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Main" />
+      <module name="MealPlanner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Recipe" />
+      <module name="MealPlanner" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Recipe" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Recipe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f38e8e5-90ae-462f-a5b5-b5ef599a8b2d" name="Default Changelist" comment="" />
+      <created>1599942389587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599942389587</updated>
+    </task>
+    <task id="LOCAL-00001" summary="My attempt at Controller Code">
+      <created>1599967505033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599967505033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My attempt at Controller Code" />
+    <MESSAGE value="Adjusted for third and fourth cups" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted for third and fourth cups" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="225" y="68" width="1086" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599973399748">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="225" y="68" width="1086" height="736" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599973399748" />
+    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599947126372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599947126372" />
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599973091314">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="500" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599973091314" />
+    <state x="400" y="0" key="CommitChangelistDialog2" timestamp="1599975936351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="400" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1599975936351" />
+    <state x="475" y="154" key="FileChooserDialogImpl" timestamp="1599973301223">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599973301223" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1599976003702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599976003702" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1599976003702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599976003702" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1599976003701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599976003701" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1599976003702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599976003702" />
+    <state x="250" y="0" key="SettingsEditor" timestamp="1599973316548">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="250" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599973316548" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1599967513171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599967513171" />
+    <state x="588" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599975976242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="588" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1599975976242" />
+    <state x="203" y="74" key="new project wizard" timestamp="1599942532545">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="203" y="74" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599942532545" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599975601601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599975601601" />
+  </component>
+</project>
