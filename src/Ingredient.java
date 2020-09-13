@@ -33,6 +33,10 @@ public class Ingredient
         this.myType = type;
     }
 
+    public String getMyName() {
+        return myName;
+    }
+
     public String getType()
     {
         return myType.name();
