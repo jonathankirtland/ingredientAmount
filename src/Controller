@@ -11,20 +11,25 @@ public class Controller {
     LinkedList<Integer> amounts = new LinkedList<Integer>();
     LinkedList<Type> type = new LinkedList<Type>();
     int servings, desiredServings;
+    Recipe newRecipe = new Recipe();
 
     public Controller() {
     }
 
 
-    public void createIng(String name, int amt, Type t)
+    public void createIng(String name, Double amt, Type t)
     {
         Ingredient temp = null;
         if(t == Type.TABLESPOON)
             temp = new Ingredient(name, amt, Type.TABLESPOON);
+        else
             if(t == Type.TEASPOON)
                 temp = new Ingredient(name, amt, Type.TEASPOON);
+            else
                 if(t == Type.CUP)
                     temp = new Ingredient(name, amt, Type.CUP);
+                else
+                    temp = new Ingredient(name, (int)amt, null);
 
         System.out.println(name + " has been added to the recipe.");
         recipe.addToRecipe(temp);
@@ -41,11 +46,11 @@ public class Controller {
     }
     public void convertClicked()
     {
-        Recipe newRecipe = new Recipe();
+
         newRecipe = recipe.convert(servingsDesired);
     }
      public void Printrecipe()
      {
-
+        System.out.print(newRecipe);
      }
 }
