@@ -1,12 +1,10 @@
 package src;
 
-import src.Ingredient;
-
 import java.util.LinkedList;
 
 public class Controller {
 
-    private Recipe recipe;
+    public Recipe recipe = new Recipe(1);
     LinkedList<String> names = new LinkedList<String>();
     LinkedList<Integer> amounts = new LinkedList<Integer>();
     LinkedList<Type> type = new LinkedList<Type>();
@@ -22,43 +20,46 @@ public class Controller {
         if(t == Type.TABLESPOON)
             temp = new Ingredient(name, amt, Type.TABLESPOON);
         else
-            if(t == Type.TEASPOON)
-                temp = new Ingredient(name, amt, Type.TEASPOON);
-            else
-                if(t == Type.CUP)
-                    temp = new Ingredient(name, amt, Type.CUP);
-                    else
-                        if(t==Type.HALFCUP)
-                            temp = new Ingredient(name, amt, Type.HALFCUP);
-                        if(t == Type.THIRDCUP)
-                            temp = new Ingredient(name, amt, Type.THIRDCUP);
-                        else
-                            if(t == Type.FOURTHCUP)
-                                temp = new Ingredient(name, amt, Type.FOURTHCUP);
-                            else
-                                    temp = new Ingredient(name, (int)amt.doubleValue(), null); //Error not expected
+        if(t == Type.TEASPOON)
+            temp = new Ingredient(name, amt, Type.TEASPOON);
+        else
+        if(t == Type.CUP)
+            temp = new Ingredient(name, amt, Type.CUP);
+        else
+        if(t==Type.HALFCUP)
+            temp = new Ingredient(name, amt, Type.HALFCUP);
+        if(t == Type.THIRDCUP)
+            temp = new Ingredient(name, amt, Type.THIRDCUP);
+        else
+        if(t == Type.FOURTHCUP)
+            temp = new Ingredient(name, amt, Type.FOURTHCUP);
+        else
+            temp = new Ingredient(name, (int)amt.doubleValue(), null); //Error not expected
 
         System.out.println(name + " has been added to the recipe.");
         recipe.addToRecipe(temp);
     }
 
-    private void servingsGiven(int i)
+    public void servingsGiven(int i)
     {
         servings = i;
     }
 
-    private void servingsDesired(int i)
+    public void servingsDesired(int i)
     {
         desiredServings = i;
-        recipe = new Recipe(desiredServings);
     }
-    public conversionFactor()
-    {
 
+    public void initRecipe()
+    {
+        double factor;
+        factor = (double)desiredServings/servings;
+        recipe = new Recipe(factor);
     }
-    public String convertClicked()
+    public String nextClicked()
     {
         //print recipe
+        System.out.println(recipe);
         return recipe.toString();
     }
 
