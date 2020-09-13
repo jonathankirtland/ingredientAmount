@@ -11,7 +11,7 @@ public class Controller {
     LinkedList<Integer> amounts = new LinkedList<Integer>();
     LinkedList<Type> type = new LinkedList<Type>();
     int servings, desiredServings;
-    String newRecipe;
+    Recipe newRecipe = new Recipe();
 
     public Controller() {
     }

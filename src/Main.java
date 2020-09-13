@@ -10,6 +10,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.event.ActionEvent;
 import java.util.ArrayList;
@@ -27,8 +28,9 @@ public class Main<TemplateType> extends Application
     {
         window = primaryStage;
 
+
         // GUI Info
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+
         window.getIcons().add(new Image(getClass().getResourceAsStream("icon-1.png")));
         window.setTitle("Ingredient Ratio Calculator");
 
@@ -49,6 +51,7 @@ public class Main<TemplateType> extends Application
     {
         GridPane ingredientLayout = new GridPane();
 
+
         ArrayList<TextField> arrIngredientName = new ArrayList<TextField>();
         ArrayList<TextField> arrIngredientAmount = new ArrayList<TextField>();
 
@@ -64,6 +67,7 @@ public class Main<TemplateType> extends Application
         // buttons
         Button nextButton = new Button("Next");
         Button addButton = new Button("Add");
+
 
         addButton.setId("addButton");
         nextButton.setId("nextButton");
